@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.left {
+  background-color: #ffaa2b;
+  height: 800px;
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding-top:  20%;
+}
+.right {
+  background: url("https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-0/p480x480/13938535_10154413838435148_4226401966691412361_n.jpg?oh=d318a0010cba22de970d0889d75af9f0&oe=5812658B") no-repeat center center;
+  height: 800px;
+  width: 50%;
+  float: right;
+  background-size: cover;
+}
+
+button {
+  padding: 10px 5px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
